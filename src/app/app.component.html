@@ -1,0 +1,22 @@
+<div class="container">
+  <app-header></app-header>
+  <div class="centering">
+    <table class="table">
+      <thead>
+        <th>POSITION</th>
+        <th>SHIELD</th>
+        <th>TEAM</th>
+        <th>POINTS</th>
+      </thead>
+      <tbody>
+        <tr *ngFor="let time of tabela | async">
+          <td>{{time.posicao}}</td>
+          <td><img class="shield" src="{{time.time.escudo}}" alt="" /></td>
+          <td>{{time.time.nome_popular}}</td>
+          <td>{{time.pontos}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <app-footer></app-footer>
+</div>

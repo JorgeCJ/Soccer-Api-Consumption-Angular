@@ -1,0 +1,53 @@
+*, body,html{
+  margin:0;
+  padding:0;
+}
+
+.container {
+  display:flexbox;
+  align-items:center;
+  justify-content:center;
+  min-width: 480px;
+  min-height:100%;
+  margin: 0;
+  padding:0;
+  border:2px solid white;
+}
+
+.centering{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.table{
+  display:flexbox;
+  min-width:100%;
+  max-width:100vw;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.3);
+  border:2px solid white;
+  font-size:20px;
+}
+
+
+.container th, .container td {
+  text-align: center;
+  color:white;
+  border:2px solid white;
+}
+
+.container th:hover, .container td:hover {
+ box-shadow: 2px 2px 200px 2px white;
+}
+
+.container th {
+  background: linear-gradient(180deg, rgba(0, 128, 0, 0.3), rgba(0, 0, 0, 0.7));
+  font-weight: bold;
+  color:white;
+}
+
+.container img.shield {
+  max-width: 50px;
+  max-height: 50px;
+}

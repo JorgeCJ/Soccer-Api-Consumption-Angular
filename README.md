@@ -1,3 +1,20 @@
+# Soccer-Api-Consumption-Angular
+
+![API FUTEBOL ANGULAR](https://github.com/JorgeCJ/Soccer-Api-Consumption-Angular/assets/127647774/9b681edb-f079-4e1f-9401-86e5ae994dd8)
+
+Api consumption of the Brazilian Championship Series C, better known as "Brasileirão". See it on [Vercel](https://soccer-api-consumption-angular.vercel.app/).
+
+## Technologies
+List of technologies used in the project:
+
+- [Angular](https://angular.io/docs)
+- [TypeScript](https://www.typescriptlang.org/docs/)
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [API Futebol](https://api-futebol.com.br/campeonato/campeonato-brasileiro-serie-c/2023)
+
+`See details on how to make the project work below:`
+
 # ApiConsumption
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
